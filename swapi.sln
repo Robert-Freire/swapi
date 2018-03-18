@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapi", "swapi\Swapi.csproj", "{D1878144-2A90-48EC-B647-89432B28426D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapi.UnitTest", "Swapi.UnitTest\Swapi.UnitTest.csproj", "{7ABB1E5B-0D87-4CC4-BE10-E07C19E08EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1878144-2A90-48EC-B647-89432B28426D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1878144-2A90-48EC-B647-89432B28426D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1878144-2A90-48EC-B647-89432B28426D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1878144-2A90-48EC-B647-89432B28426D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABB1E5B-0D87-4CC4-BE10-E07C19E08EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABB1E5B-0D87-4CC4-BE10-E07C19E08EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABB1E5B-0D87-4CC4-BE10-E07C19E08EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABB1E5B-0D87-4CC4-BE10-E07C19E08EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E3597F8-3F44-45EB-B04B-A840EBE05F5A}
+	EndGlobalSection
+EndGlobal
