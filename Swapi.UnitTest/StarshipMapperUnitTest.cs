@@ -44,7 +44,10 @@ namespace Swapi.UnitTest
 
         }
 
-        
+
+        /// <summary>
+        /// Mappers the starship map to when MGMT is informed then maps MGMT.
+        /// </summary>
         [TestMethod]
         public void MapperStarship_MapTo_WhenMGMTIsInformed_ThenMapsMGMT()
         {
@@ -64,6 +67,9 @@ namespace Swapi.UnitTest
 
         }
 
+        /// <summary>
+        /// Mappers the starship map to when consumables is moth informed then maps consumables.
+        /// </summary>
         [TestMethod]
         public void MapperStarship_MapTo_WhenConsumablesIsMothInformed_ThenMapsConsumables()
         {
@@ -83,6 +89,9 @@ namespace Swapi.UnitTest
 
         }
 
+        /// <summary>
+        /// Mappers the starship map to when consumables is year informed then maps consumables.
+        /// </summary>
         [TestMethod]
         public void MapperStarship_MapTo_WhenConsumablesIsYearInformed_ThenMapsConsumables()
         {
@@ -102,6 +111,9 @@ namespace Swapi.UnitTest
 
         }
 
+        /// <summary>
+        /// Mappers the starship map to when consumables is fays informed then maps consumables.
+        /// </summary>
         [TestMethod]
         public void MapperStarship_MapTo_WhenConsumablesIsFaysInformed_ThenMapsConsumables()
         {

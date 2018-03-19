@@ -7,7 +7,7 @@ namespace Swapi.DataServices
     /// Class HttpClientHandler.
     /// Wrapper class for HttpClass used for unit testing
     /// </summary>
-    /// <seealso cref="swapi.DataServices.IHttpClientHandler" />
+    /// <seealso cref="Swapi.DataServices.IHttpClientHandler" />
     public class HttpClientHandler : IHttpClientHandler
     {
         private readonly HttpClient client = new HttpClient();

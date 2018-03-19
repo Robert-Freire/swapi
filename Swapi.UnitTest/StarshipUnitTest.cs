@@ -4,6 +4,9 @@ using Swapi.Model;
 
 namespace Swapi.UnitTest
 {
+    /// <summary>
+    /// Class StarshipUnitTest.
+    /// </summary>
     [TestClass]
     public class StarshipUnitTest
     {

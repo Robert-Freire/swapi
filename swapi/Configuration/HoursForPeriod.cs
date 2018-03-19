@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Swapi.Configuration
+﻿namespace Swapi.Configuration
 {
     /// <summary>
-    /// Class that contains the hours of a tiem period.
+    /// Class that contains the hours of a time period.
     /// </summary>
     public class HoursForPeriod
     {

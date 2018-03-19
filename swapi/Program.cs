@@ -1,11 +1,8 @@
-﻿using swapi.BusinessLogic;
+﻿using Swapi.BusinessLogic;
+using Swapi.Configuration;
 using Swapi.DataServices;
 using Swapi.Mapper;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Swapi
 {

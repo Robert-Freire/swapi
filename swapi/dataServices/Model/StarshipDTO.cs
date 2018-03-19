@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
 
 namespace Swapi.DataServices.Model
 {
+    /// <summary>
+    /// Class StarshipDTO.
+    /// Starships that comes from the swapi api
+    /// </summary>
     [DataContract]
     public class StarshipDTO
     {

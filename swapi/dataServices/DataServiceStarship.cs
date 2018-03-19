@@ -1,16 +1,14 @@
 ﻿using Newtonsoft.Json;
-using Swapi.DataServices;
+using Swapi.Configuration;
 using Swapi.DataServices.Model;
-using Swapi.Model;
-using Swapi.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Formatting;
-using System.Text;
-using System.Threading.Tasks;
 
+/// <summary>
+/// The DataServices namespace.
+/// Namaspace where we put the contction to external sources of data
+/// </summary>
 namespace Swapi.DataServices
 {
     /// <summary>
@@ -54,6 +52,7 @@ namespace Swapi.DataServices
 
             return listStarships;
         }
+
         /// <summary>
         /// Gets a page of the list of starships
         /// </summary>

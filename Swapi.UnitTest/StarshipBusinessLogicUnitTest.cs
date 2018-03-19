@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using swapi.BusinessLogic;
+using Swapi.BusinessLogic;
 using Swapi.Mapper;
 using Moq;
 using Swapi.DataServices;

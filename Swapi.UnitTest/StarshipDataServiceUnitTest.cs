@@ -10,14 +10,21 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using Swapi.DataServices.Model;
 using System.Linq;
+using Swapi.Configuration;
 
 namespace Swapi.UnitTest
 {
+    /// <summary>
+    /// Class StarshipDataServiceUnitTest.
+    /// </summary>
     [TestClass]
     public class StarshipDataServiceUnitTest
     {
         StarshipDataService dataServiceStarshipUT;
         Mock<IHttpClientHandler> httpClientHandlerMock;
+        /// <summary>
+        /// Initializes this instance.
+        /// </summary>
         [TestInitialize]
         public void initialize()
         {
@@ -28,7 +35,7 @@ namespace Swapi.UnitTest
         }
 
         /// <summary>
-        /// DatasServiceStarship when a call to the GetAll does not return next page then return the result of the call.
+        /// DataServiceStarship when a call to the GetAll does not return next page then return the result of the call.
         /// </summary>
         [TestMethod]
         public void DataServiceStarshipGetAll_whenACallToTheServiceDoesNotReturnNextPage_ThenReturnTheResultOfTheCall()

@@ -1,11 +1,7 @@
-﻿using Swapi.Model;
+﻿using Swapi.Configuration;
 using Swapi.DataServices.Model;
-using System;
+using Swapi.Model;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Swapi.Configuration;
 
 namespace Swapi.Mapper
 {

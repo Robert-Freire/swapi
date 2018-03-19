@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace Swapi.Model
 {
-    
+
+    /// <summary>
+    /// Class Starship.
+    /// </summary>
     public class Starship
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Starship" /> class.
+        /// </summary>
+        /// <param name="name">The name.</param>
         public Starship(string name )
         {
             Name = name;
